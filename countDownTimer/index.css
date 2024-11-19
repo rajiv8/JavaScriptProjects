@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+h1{
+    font-size: 4vw;
+    font-weight: bold ;
+    margin-bottom: 1vw;
+
+    
+}
+.big-text{
+    font-size: 3vw;
+    font-weight: bold ;
+    text-align: center;
+    /* margin: 0 1rem; */
+}
+span{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+body{
+    position: relative;
+    background: url(https://images.unsplash.com/photo-1625767108348-9fa072952741?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=331&q=80);
+    background-size:100vw;
+    min-height: 100vh;
+    background-size:100vw 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+    font-family: 'Source Code Pro', monospace;
+
+  
+}
+.form{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    
+}
+input{
+    height:3vw;
+    font-size:2vw;
+    text-align: center;
+    margin-right: 3px;
+}
+#btnSet{
+    height: 3.5vw;
+    font-size:2vw;
+    width: 5vw;
+    margin-right: 2px;
+    background: green;
+    color: white;
+    border-radius: 6px;
+}
+#btnStop{
+    height: 3.5vw;
+    font-size:2vw;
+    width: 5vw;
+    margin-right: 2px;
+    background: red;
+    color: white;
+    border-radius: 6px;
+}
+
+.container{
+    background: black;
+    height:30vw;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+}
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 20vw; */
+}
+.boxes{
+    margin:1vw;
+}
